@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-family:"Source Code Pro", monospace;
+    font-size: 12px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo {
+    cursor:pointer;
+    margin-right: auto
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li, a {
+    transition: all 0.1s ease 0s;
+    
+}
+
+.nav_links li a:hover {
+color: rgb(253, 180, 45);
+}
+
+button {
+    margin-left: 20px;
+    padding: 5px 10px;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.0s ease 0s; /* transition for hover effect */
+    border-radius: 0px;    /* button roundness */
+    cursor:pointer
+}
+
+button:hover {
+    background-color: rgba(106, 197, 188, 0.8);
+}
