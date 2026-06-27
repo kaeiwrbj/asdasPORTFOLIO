@@ -17,6 +17,8 @@
 li, a, button {
     font-family:"Source Code Pro", monospace;
     font-size: 12px;
+    text-decoration: none;
+
 }
 
 header {
@@ -67,4 +69,11 @@ button {
 
 button:hover {
     background-color: rgba(106, 197, 188, 0.8);
+}
+
+.footer-elements {
+  display: flex; 
+  align-items: center; 
+  gap: 10px;
+  margin: 5px 0;
 }
