@@ -9,16 +9,15 @@
 .hero {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    font-family: "Source Code Pro", monospace;
+    font-family: "Inconsolata", monospace;
     font-size: 12px;
     padding: 10px 10%;
 }
 
 li, a, button {
-    font-family:"Source Code Pro", monospace;
+    font-family:"Inconsolata", monospace;
     font-size: 12px;
     text-decoration: none;
-
 }
 
 header {
@@ -30,9 +29,9 @@ header {
 }
 
 footer {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(235, 235, 235);
     color: rgb(0, 0, 0);
-    font-family: "Source Code Pro", monospace;
+    font-family: "Inconsolata", monospace;
     font-size: 12px;
     padding: 10px 10%;
     text-align: center;
@@ -47,7 +46,7 @@ footer {
     list-style: none;
 }
 
-.nav_links li, a {
+.nav_links li, a, p {
     display: inline-block;
     padding: 5px 10px;
     transition: all 0.1s ease 0s;
@@ -72,7 +71,7 @@ button:hover {
 }
 
 .footer-elements {
-  display: flex; 
+  display: flex;
   justify-content: center;
   margin: 15px 0;
   transition: all 0.1s ease 0s;
